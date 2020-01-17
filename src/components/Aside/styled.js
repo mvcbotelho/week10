@@ -17,6 +17,10 @@ export const AsideWrapper = styled.aside`
   form {
     margin-top: 30px;
   }
+
+  @media (max-width: 1000px) {
+    width: 100%;
+  }
 `;
 
 export const InputBlock = styled.div`

@@ -8,4 +8,8 @@ export const AppWrapper = styled.div`
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+
+  @media (max-width: 1000px) {
+    flex-direction: column;
+  }
 `;
